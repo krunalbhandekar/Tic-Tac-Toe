@@ -34,15 +34,15 @@ code {
 .square {
   min-width: 100px;
   min-height: 100px;
-  font-size: 25px;
+  font-size: 50px;
   text-align: center;
-  color: #1CDBF5;
+  color: orange;
   font-weight: bolder;
   padding: 30px;
 }
 
 .fc-aqua {
-  color: #1CDBF5;
+  color: orange;
 }
 
 .fc-white {
@@ -68,16 +68,16 @@ code {
 }
 
 .b-bottom-right {
-  border-right: 15px solid #1CDBF5;
-  border-bottom: 15px solid #1CDBF5;
+  border-right: 15px solid orange;
+  border-bottom: 15px solid orange;
 }
 
 .b-bottom {
-  border-bottom: 15px solid #1CDBF5;
+  border-bottom: 15px solid orange;
 }
 
 .b-right {
-  border-right: 15px solid #1CDBF5;
+  border-right: 15px solid orange;
 }
 
 .clear-button {
@@ -107,16 +107,16 @@ code {
   }
 
   .b-bottom-right {
-    border-right: 10px solid #1CDBF5;
-    border-bottom: 10px solid #1CDBF5;
+    border-right: 10px solid orange;
+    border-bottom: 10px solid orange;
   }
 
   .b-bottom {
-    border-bottom: 10px solid #1CDBF5;
+    border-bottom: 10px solid orange;
   }
 
   .b-right {
-    border-right: 10px solid #1CDBF5;
+    border-right: 10px solid orange;
   }
 
   .clear-button {

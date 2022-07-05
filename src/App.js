@@ -51,7 +51,7 @@ function App() {
 
     return (
         <div className="app-header">
-            <p className="heading-text">React Tic Tac Toe - 2022</p>
+            <p className="heading-text">Tic Tac Toe</p>
             <div className="row jc-center">
                 <SquareComponent className="b-bottom-right" onClick={() => onUserClicked(0)} state={gameState[0]}/>
                 <SquareComponent className="b-bottom-right" onClick={() => onUserClicked(1)} state={gameState[1]}/>
@@ -68,7 +68,7 @@ function App() {
                 <SquareComponent onClick={() => onUserClicked(8)} state={gameState[8]}/>
             </div>
             <button className="clear-button" onClick={clearGame}>Clear Game</button>
-            <p className="fc-aqua fw-600">The Indian Dev</p>
+            <p className="fc-white fw-600">Krunal Bhandekar</p>
         </div>
     );
 }
